@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Everyone
+title: "Hello Everyone"
 ---
 
 Hello Everyone! 
