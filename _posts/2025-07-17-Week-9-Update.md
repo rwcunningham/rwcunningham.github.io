@@ -1,6 +1,7 @@
 layout:post
 title: Building SoundGalore Week 9
 ---
+
 What did you do last week?
 Last week I worked more on the authentication process by creating the actual login page and the button leading there. It still has some "placeholder code" for now where the authentication works no matter what, but I'm much closer to having this process in place. I have been a little a short on time so I've been breaking it into small steps, solving one problem at a time.
 
