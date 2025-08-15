@@ -1,4 +1,5 @@
-layout: pist
+---
+layout: post
 title: Building SoundGalore Week 13
 ---
 
