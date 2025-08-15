@@ -2,7 +2,6 @@
 layout: post
 title: Building SoundGalore Week 13
 ---
-
 Final Project Post!
 
 Here is the link:
