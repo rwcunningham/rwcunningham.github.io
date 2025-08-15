@@ -1,5 +1,5 @@
 layout:post
-title: Week 8
+title: Building SoundGalore Week 8
 ---
 
 Week 8 Update
