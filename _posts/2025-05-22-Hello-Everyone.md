@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome To My New Portfolio Site!"
+title: "Week 1: Welcome To My New Portfolio Site!"
 ---
 
 Hello Everyone! 
