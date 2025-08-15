@@ -2,7 +2,6 @@
 layout: post
 title: Building SoundGalore Week 5
 ---
-
 What did you do last week? 
 
 Last week I worked on my "CreatePost.jsx" page, including some work in both the server and the database. I had planned on doing a lot more from the backend to add media, and create "follow" relationships between people etc, but I realized that maybe I should actually build a place for the user to create a post, rather than just putting posts into the database blindly, in case I need to add or remove columns from the database. This made me realize that I actually need to build two components to hand browsing for audio files and image files, so that's what I'm doing now. 
