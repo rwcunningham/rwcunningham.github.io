@@ -1,5 +1,5 @@
 layout: post
-title: Week 7
+title: Building SoundGalore Week 7
 
 ---
 What did you do last week?
