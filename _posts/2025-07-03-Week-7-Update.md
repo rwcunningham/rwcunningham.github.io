@@ -1,7 +1,8 @@
+---
 layout: post
 title: Building SoundGalore Week 7
-
 ---
+
 What did you do last week?
 Last Week I got the play button, the scrubber, and the time formatting working. I also got started with figuring our some of the authentication process.
 
