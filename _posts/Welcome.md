@@ -1,8 +1,0 @@
----
-layout: default
-title: Welcome To My My Portfolio Website!
-order: 1
-pinned: true
----
-
-Welcome visitor! I created this site to showcase my personal projects as a programmer for anyone who might me interested (friends, potential employers, other programmers). I recently completed a BS in Computer Science from University of Colorado - Boulder, and I'm continuing to work on projects as I apply for Software Engineering roles. I'm interested in full-stack web development, audio dsp development, mobile development.       
