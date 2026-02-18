@@ -8,7 +8,9 @@ About Robert Cunningham
 
 ### More Information
 
-I am a Software Engineer, currently residing in Los Angeles, California. 
+Greetings Visitor!
+
+My name is Robert Cunningham. I am a Software Engineer, currently residing in Los Angeles, California. 
 
 In December of 2025, I graduated from The University of Colorado - Boulder with a Bachelor of Science in Computer Science. Previously, I have earned a Double Bachelor of Arts from University of Nebraska - Omaha in Music Technology, Jazz Bass Performance, and a minor in IT Innovation.
 
