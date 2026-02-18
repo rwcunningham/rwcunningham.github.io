@@ -2,31 +2,43 @@
 layout: default
 ---
 
-<section class="hero">
-  <h1>Software engineer focused on practical products.</h1>
+<section class="hero" aria-labelledby="home-hero-title">
+  <h1 id="home-hero-title">Software engineer focused on practical products.</h1>
+
   <p class="muted">
-    Recent CS grad building web + systems projects. Interested in full-stack web development, audio tooling and AI.
+    Recent CS grad building web + systems projects. Interested in full-stack web development, audio tooling, and AI.
   </p>
+
   <div class="cta-row">
-    <a class="btn primary" href="https://github.com/rwcunningham">GitHub</a>
-    <a class="btn" href="{{ "/about" | relative_url }}">About</a>
+    <a
+      class="btn primary"
+      href="https://github.com/rwcunningham"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+    <a class="btn" href="{{ '/about/' | relative_url }}">About</a>
   </div>
 </section>
 
-<section class="section">
+<section class="section" aria-labelledby="projects-title">
   <div class="section-head">
-    <h2>Projects</h2>
+    <h2 id="projects-title">Projects</h2>
     <p class="muted">Selected work with code and writeups.</p>
   </div>
 
   <div class="grid">
-    {% for post in site.posts limit:6 %}
+    {% for post in site.posts limit: 6 %}
       <a class="card" href="{{ post.url | relative_url }}">
         <div class="card-top">
           <h3 class="card-title">{{ post.title }}</h3>
           <span class="pill">{{ post.date | date: "%Y" }}</span>
         </div>
-        <p class="card-desc">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+
+        {% assign summary = post.description | default: post.excerpt %}
+        <p class="card-desc">{{ summary | strip_html | normalize_whitespace | truncate: 140 }}</p>
+
         <div class="card-link">Read more →</div>
       </a>
     {% endfor %}
