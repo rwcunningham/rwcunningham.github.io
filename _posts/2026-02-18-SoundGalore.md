@@ -1,8 +1,10 @@
 ---
 layout: default
-title: SoundGalore
+title: Introducing SoundGalore!
 order: 2
 ---
+
+SoundGalore on Github: https://github.com/rwcunningham/SoundGalore
 
 SoundGalore is a project I started in June of 2026 as a homelab to practice full-stack web development. I chose a stack consisting of React (javascript front-end framework), Flask (python server framwork), and SQL_Alchemy to manage a MySQL database using python (the goal of using SQL_Alchemy is to keep the database as portable as possible). 
 
