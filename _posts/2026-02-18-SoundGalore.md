@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introducing SoundGalore!
+title: SoundGalore: A New Vision for Social Media
 order: 2
 ---
 
