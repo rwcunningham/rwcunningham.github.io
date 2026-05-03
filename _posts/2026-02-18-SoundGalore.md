@@ -1,7 +1,6 @@
 ---
-layout: default
-title: SoundGalore: A New Vision for Social Media
-order: 2
+layout: post
+title: "SoundGalore TEST"
 ---
 
 SoundGalore on Github: https://github.com/rwcunningham/SoundGalore
