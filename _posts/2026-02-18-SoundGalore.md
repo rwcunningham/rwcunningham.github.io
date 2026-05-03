@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SoundGalore TEST"
+title: "SoundGalore"
 ---
 
 SoundGalore on Github: https://github.com/rwcunningham/SoundGalore
