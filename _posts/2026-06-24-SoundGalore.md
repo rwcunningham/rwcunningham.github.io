@@ -17,6 +17,7 @@ SoundGalore is a project I built, and continue to maintain as a homelab to pract
 SoundGalore includes features typical of other social media sites including: authentication, profile management, posts, comments, likes, follows, profile pictures, camera/audio permissions etc. All of these features of course require unique database considerations, endpoint considerations, as well as front-end considerations. Implementing each one of these feature helped to strengthen my knowledge of each layer of the stack. I used a "mobile-first" strategy, so I focused a lot on controlling scroll and zoom behavior for a smooth and intuitive user experience. 
 
 Soundgalore in action: \
+<br>
 ![SoundGalore dashboard](/images/soundgalore-screenshot-3.png) \
 
 Links: \
