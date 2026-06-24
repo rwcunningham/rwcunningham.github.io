@@ -14,7 +14,7 @@ Meetsignal is an app I built using Codex for the 2026 Progress X GitNation Hacka
 ![MeetSignal](/images/MeetSignal-Screenshot-1.png)
 ![MeetSignal](/images/MeetSignal-Screenshot-2.png) 
 
-Framing the Problem
+**Framing the Problem**
 What is the problem you are trying to solve? Who does it affect?
 
 Tech conferences are full of potentially valuable connections, but most networking still happens by chance. Attendees often walk into a crowded event with no clear way to know who they should meet, which sessions overlap with their goals, or when another person is actually free to talk.
@@ -31,7 +31,7 @@ Sponsors and recruiters, who want better ways to connect with people who are act
 
 The result is that conferences can feel busy but inefficient. The right people may be in the same room, but they never find each other.
 
-Idea Explanation
+**Idea Explanation**
 What is your idea? How does it fix the problem?
 
 MeetSignal is a conference networking app that helps attendees find the people they are most likely to have meaningful conversations with.
@@ -46,7 +46,7 @@ Stop networking at random. Meet with purpose.
 
 MeetSignal turns a conference from a room full of strangers into a map of relevant people, shared interests, and useful opportunities.
 
-Implementation
+**Implementation**
 MeetSignal is built as a React/Vite frontend using KendoReact components for a polished, interactive interface. Kendo UI is used throughout the app for cards, dialogs, forms, charts, buttons, avatars, tabs, dashboards, and other core interface elements.
 
 The app currently uses local client-side state and seeded mock data to simulate a real conference environment. This includes users, profiles, survey answers, posts, comments, events, event signups, meeting requests, messages, notifications, and schedules.
@@ -84,7 +84,7 @@ We also had to make sure the product felt functional instead of just visual. But
 
 Finally, we had to balance technical ambition with hackathon realism. Instead of building a full backend, we focused on creating a complete, understandable MVP with seeded conference data and a clear path toward production.
 
-Accomplishments
+**Accomplishments**
 What did you learn? What did you accomplish?
 
 I built a working conference networking prototype that demonstrates the full user journey from onboarding to meaningful connection.
@@ -111,7 +111,7 @@ Provide organizer-facing analytics and dashboards.
 
 We also learned a lot about product scoping, responsive UI design, state management, and how to make an algorithmic feature feel understandable to users. The biggest accomplishment was turning an abstract matching idea into a guided conference experience that feels practical and demoable.
 
-Next Steps
+**Next Steps**
 What are the next steps for your project? How can you improve it?
 
 The next step is connecting MeetSignal to a real backend so multiple users can interact with the same live conference data. This would allow persistent accounts, shared posts, real-time messages, actual event registrations, and live notifications.
