@@ -4,13 +4,9 @@ title: "SoundGalore"
 ---
 
 Links: \
-[SoundGalore Product Demo] (https://www.youtube.com/watch?v=QsJuJkHPLUs&t=147s) \
-[SoundGalore Code Walkthrough]: (https://www.youtube.com/watch?v=jq76rTBD9kY&t=57s) \
-[SoundGalore on Github]: (https://github.com/rwcunningham/SoundGalore) \
-
-Soundgalore in action: \
-![SoundGalore dashboard](/images/soundgalore-screenshot-3.png) \
-\
+[SoundGalore Product Demo](https://www.youtube.com/watch?v=QsJuJkHPLUs&t=147s) \
+[SoundGalore Code Walkthrough](https://www.youtube.com/watch?v=jq76rTBD9kY&t=57s) \
+[SoundGalore on Github](https://github.com/rwcunningham/SoundGalore) \
 
 Hello Everyone. I present to you: SoundGalore!
 
@@ -18,3 +14,6 @@ SoundGalore is a project I built, and continue to maintain as a homelab to pract
 
 
 SoundGalore includes features typical of other social media sites including: authentication, profile management, posts, comments, likes, follows, profile pictures, camera/audio permissions etc. All of these features of course require unique database considerations, endpoint considerations, as well as front-end considerations. Implementing each one of these feature helped to strengthen my knowledge of each layer of the stack. I used a "mobile-first" strategy, so I focused a lot on controlling scroll and zoom behavior for a smooth and intuitive user experience. 
+
+Soundgalore in action: \
+![SoundGalore dashboard](/images/soundgalore-screenshot-3.png) \
