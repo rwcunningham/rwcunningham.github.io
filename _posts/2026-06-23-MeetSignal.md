@@ -3,8 +3,8 @@ layout: post
 title: "MeetSignal"
 ---
 
-![Hackathon Party page about MeetSignal] (https://www.hackathonparty.com/hackathons/43/projects/567)
-![Presentation Video on Youtube] (https://youtu.be/lZBKQMuFMmg?si=14gVkPPXz6VipVkI)
+[Hackathon Party page about MeetSignal] (https://www.hackathonparty.com/hackathons/43/projects/567)
+[Presentation Video on Youtube] (https://youtu.be/lZBKQMuFMmg?si=14gVkPPXz6VipVkI)
 
 ![MeetSignal](images/MeetSignal-Slideshow-Intro.png)
 ![MeetSignal](images/MeetSignal-Screenshot-1.png)

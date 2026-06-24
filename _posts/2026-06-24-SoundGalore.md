@@ -4,9 +4,9 @@ title: "SoundGalore"
 ---
 
 Links:
-![SoundGalore Product Demo] (https://www.youtube.com/watch?v=QsJuJkHPLUs&t=147s) \
-![SoundGalore Code Walkthrough]: (https://www.youtube.com/watch?v=jq76rTBD9kY&t=57s) \
-![SoundGalore on Github]: (https://github.com/rwcunningham/SoundGalore) \
+[SoundGalore Product Demo] (https://www.youtube.com/watch?v=QsJuJkHPLUs&t=147s) \
+[SoundGalore Code Walkthrough]: (https://www.youtube.com/watch?v=jq76rTBD9kY&t=57s) \
+[SoundGalore on Github]: (https://github.com/rwcunningham/SoundGalore) \
 
 Soundgalore in action:
 ![SoundGalore dashboard](/images/soundgalore-screenshot-3.png) \
