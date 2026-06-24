@@ -30,6 +30,10 @@ layout: default
   <div class="grid">
     {% for post in site.posts limit: 6 %}
       <a class="card" href="{{ post.url | relative_url }}">
+        {% if post.image %}
+          <img class="card-image" src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
+        {% endif %}
+
         <div class="card-top">
           <h3 class="card-title">{{ post.title }}</h3>
           <span class="pill">{{ post.date | date: "%Y" }}</span>

@@ -468,7 +468,14 @@ img {
   border-radius: 8px;
   box-shadow: 0 2px 16px rgba(0,0,0,.06);
 }
-
+.post-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  margin: 0 0 1.6rem;
+  object-fit: cover;
+}
 .gmnoprint img { max-width: none; border-radius: 0; box-shadow: none; }
 
 /* 8) Footer: lighter chrome */
@@ -609,6 +616,7 @@ table {
   box-shadow: 0 0 0 rgba(0,0,0,0);
   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
   color: var(--text);
+  overflow: hidden;
 }
 .card:hover {
   transform: translateY(-2px);
@@ -616,15 +624,25 @@ table {
   box-shadow: var(--shadow);
 }
 
+.card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius) - 2px);
+  margin-bottom: 14px;
+  object-fit: cover;
+}
+
 .card-top {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 10px;
+  min-width: 0;
 }
-.card-title { margin: 0; font-size: 1.05rem; }
-.card-desc { margin-top: 10px; color: var(--muted); }
-.card-link { margin-top: 12px; font-weight: 600; color: var(--accent); }
+.card-title { margin: 0; font-size: 1.05rem; min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
+.card-desc { margin-top: 10px; color: var(--muted); min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
+.card-link { margin-top: 12px; font-weight: 600; color: var(--accent); overflow-wrap: anywhere; }
 
 .pill {
   font-size: .8rem;

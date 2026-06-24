@@ -2,6 +2,7 @@
 layout: post
 title: "SoundGalore"
 ---
+![SoundGalore dashboard](/images/soundgalore-screenshot-3.png)
 
 SoundGalore Product Demo: https://www.youtube.com/watch?v=QsJuJkHPLUs&t=147s
 SoundGalore Code Walkthrough: https://www.youtube.com/watch?v=jq76rTBD9kY&t=57s
