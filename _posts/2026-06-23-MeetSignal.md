@@ -3,7 +3,7 @@ layout: post
 title: "MeetSignal"
 ---
 
-Meetsignal is an app I built using Codex for the 2026 Progress X GitNation Hackathon. It uses cosine distances between vectors to match people together by exploiting the same mathematical trick that Pandora uses to match songs that go together:
+**Meetsignal** is an app I built using Codex for the **2026 Progress X GitNation Hackathon**. It uses cosine distances between vectors to match people together by exploiting the same mathematical trick that Pandora uses to match songs that go together:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lZBKQMuFMmg?si=N2s1rqgidVBgDmsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
