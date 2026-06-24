@@ -2,47 +2,110 @@
 layout: default
 ---
 
-<section class="hero" aria-labelledby="home-hero-title">
-  <h1 id="home-hero-title"></h1>
+<section class="hero" aria-labelledby="home-hero-title" data-parallax>
+  <div class="hero-content reveal">
+    <p class="eyebrow">Software engineer in Los Angeles</p>
+    <h1 id="home-hero-title">Robert Cunningham</h1>
 
-  <p class="muted">
-    Early-career software engineer focused on full-stack web development, as well as real-time systems. My pursuit is turning ideas and visions into working products. 
+    <p class="hero-copy">
+      Early-career software engineer focused on full-stack web development, real-time systems, and audio/DSP projects. I turn ideas and visions into working products.
+    </p>
 
-  <div class="cta-row">
-    <a
-      class="btn primary"
-      href="https://github.com/rwcunningham"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      GitHub
-    </a>
-    <a class="btn" href="{{ '/about/' | relative_url }}">About</a>
+    <div class="cta-row">
+      <a
+        class="btn primary magnetic"
+        href="https://github.com/rwcunningham"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View GitHub
+      </a>
+      <a class="btn magnetic" href="{{ '/about/' | relative_url }}">About Robert</a>
+    </div>
   </div>
+
+  <aside class="hero-panel reveal" aria-label="Featured project">
+    <a class="signal-card" href="{{ '/SoundGalore/' | relative_url }}">
+      <img src="{{ '/images/soundgalore-screenshot-3.png' | relative_url }}" alt="SoundGalore dashboard screenshot" />
+      <div class="signal-card-body">
+        <h2 class="signal-card-title">Featured: SoundGalore</h2>
+        <p class="signal-card-text">A full-stack audio social media project and ongoing homelab for web development practice.</p>
+      </div>
+    </a>
+    <div class="metric-strip" aria-label="Focus areas">
+      <div class="metric">
+        <strong>Web</strong>
+        <span>React, Flask, SQL</span>
+      </div>
+      <div class="metric">
+        <strong>Audio</strong>
+        <span>DSP and JUCE</span>
+      </div>
+      <div class="metric">
+        <strong>Systems</strong>
+        <span>Real-time ideas</span>
+      </div>
+    </div>
+  </aside>
 </section>
 
-<section class="section" aria-labelledby="projects-title">
+<section class="section reveal" aria-labelledby="projects-title">
   <div class="section-head">
-    <h2 id="projects-title">Projects</h2>
-    <p class="muted">Portfolio.</p>
+    <div>
+      <p class="eyebrow">Selected work</p>
+      <h2 id="projects-title">Projects and writeups</h2>
+    </div>
+    <p>Project notes from full-stack web development, audio software, experiments, and hackathon builds.</p>
   </div>
 
   <div class="grid">
     {% for post in site.posts limit: 6 %}
       <a class="card" href="{{ post.url | relative_url }}">
-        {% if post.image %}
-          <img class="card-image" src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
-        {% endif %}
-
-        <div class="card-top">
-          <h3 class="card-title">{{ post.title }}</h3>
-          <span class="pill">{{ post.date | date: "%Y" }}</span>
+        <div class="card-image-wrap">
+          {% if post.image %}
+            <img class="card-image" src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
+          {% elsif post.title == "SoundGalore" %}
+            <img class="card-image" src="{{ '/images/soundgalore-screenshot.png' | relative_url }}" alt="SoundGalore screenshot" />
+          {% elsif post.title == "MeetSignal" %}
+            <img class="card-image" src="{{ '/images/MeetSignal-Slideshow-Intro.png' | relative_url }}" alt="MeetSignal presentation screenshot" />
+          {% elsif post.title == "Javascript Pinball" %}
+            <img class="card-image" src="{{ '/images/first-post.png' | relative_url }}" alt="Javascript Pinball project screenshot" />
+          {% else %}
+            <img class="card-image" src="{{ '/images/config.png' | relative_url }}" alt="{{ post.title }} project image" />
+          {% endif %}
         </div>
 
-        {% assign summary = post.description | default: post.excerpt %}
-        <p class="card-desc">{{ summary | strip_html | normalize_whitespace | truncate: 140 }}</p>
+        <div class="card-body">
+          <div class="card-top">
+            <h3 class="card-title">{{ post.title }}</h3>
+            <span class="pill">{{ post.date | date: "%Y" }}</span>
+          </div>
 
-        <div class="card-link">Read more →</div>
+          {% assign summary = post.description | default: post.excerpt %}
+          <p class="card-desc">{{ summary | strip_html | normalize_whitespace | truncate: 150 }}</p>
+
+          <div class="card-link">Read the note →</div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section reveal" aria-labelledby="notes-title">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">Latest</p>
+      <h2 id="notes-title">Recent notes</h2>
+    </div>
+    <p>A lightweight archive of the newest posts, kept scannable for quick browsing.</p>
+  </div>
+
+  <div class="posts-list">
+    {% for post in site.posts limit: 4 %}
+      <a class="post-row" href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <strong>{{ post.title }}</strong>
+        <span aria-hidden="true">→</span>
       </a>
     {% endfor %}
   </div>

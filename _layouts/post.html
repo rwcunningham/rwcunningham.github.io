@@ -7,14 +7,21 @@ layout: default
     <img class="post-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
   {% endif %}
 
-  <h1>{{ page.title }}</h1>
+  <header class="post-header reveal">
+    <p class="eyebrow">Project note</p>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%B %e, %Y" }}</p>
+  </header>
 
-  <div class="entry">
+  <div class="entry reveal">
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+  <div class="post-footer">
+    <a class="back-link" href="{{ '/' | relative_url }}">← Back to work</a>
+    <div class="date">
+      Written on {{ page.date | date: "%B %e, %Y" }}
+    </div>
   </div>
 
   {% include disqus.html %}

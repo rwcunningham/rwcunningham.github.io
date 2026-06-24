@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -16,19 +16,21 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar" aria-label="{{ site.name }} home"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="{{ site.baseurl }}/">Work</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
+            <a href="https://github.com/rwcunningham" target="_blank" rel="noopener noreferrer">GitHub</a>
           </nav>
         </header>
       </div>
@@ -38,14 +40,20 @@
       {{ content }}
     </div>
 
-    <!-- <div class="wrapper-footer">
+    <div class="wrapper-footer">
       <div class="container">
-       <footer class="footer">
-          {% include svg-icons.html %}
-        </footer> 
+        <footer class="footer">
+          <p>&copy; {{ site.time | date: "%Y" }} {{ site.name }}. Built with Jekyll.</p>
+          <div class="footer-links">
+            <a href="{{ site.baseurl }}/feed.xml">RSS</a>
+            <a href="https://github.com/rwcunningham" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
+          </div>
+        </footer>
       </div>
-    </div>-->
+    </div>
 
     {% include analytics.html %}
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </body>
 </html>
