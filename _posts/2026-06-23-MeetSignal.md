@@ -3,15 +3,22 @@ layout: post
 title: "MeetSignal"
 ---
 
+Meetsignal is an app I built using Codex for the 2026 Progress X GitNation Hackathon. It uses cosine distances between vectors to match people together by exploiting the same mathematical trick that Pandora uses to match songs that go together:
+
+<iframe width="560" height="315"
+  src="https://youtu.be/lZBKQMuFMmg?si=-hyfSRhkySmUYXSy"
+  title="Progress x GitNation Hackathon Entry 2026 - MeetSignal App"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
 [Hackathon Party page about MeetSignal](https://www.hackathonparty.com/hackathons/43/projects/567) \
-[Presentation Video on Youtube](https://youtu.be/lZBKQMuFMmg?si=14gVkPPXz6VipVkI)
+[Presentation Video on Youtube](https://youtu.be/lZBKQMuFMmg?si=-hyfSRhkySmUYXSy)
 
 ![MeetSignal](/images/MeetSignal-Slideshow-Intro.png)
 ![MeetSignal](/images/MeetSignal-Screenshot-1.png)
-![MeetSignal](/images/MeetSignal-Screenshot-2.png)
-
-Meetsignal is an app I built using Codex for the 2026 Progress X GitNation Hackathon. It uses cosine distances between vectors to match people together by exploiting the same mathematical trick that Pandora uses to match songs that go together:
-
+![MeetSignal](/images/MeetSignal-Screenshot-2.png) 
 
 Framing the Problem
 What is the problem you are trying to solve? Who does it affect?
