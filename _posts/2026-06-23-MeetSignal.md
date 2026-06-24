@@ -6,9 +6,9 @@ title: "MeetSignal"
 [Hackathon Party page about MeetSignal](https://www.hackathonparty.com/hackathons/43/projects/567) \
 [Presentation Video on Youtube](https://youtu.be/lZBKQMuFMmg?si=14gVkPPXz6VipVkI)
 
-![MeetSignal](images/MeetSignal-Slideshow-Intro.png)
-![MeetSignal](images/MeetSignal-Screenshot-1.png)
-![MeetSignal](images/MeetSignal-Screenshot-2.png)
+![MeetSignal](/images/MeetSignal-Slideshow-Intro.png)
+![MeetSignal](/images/MeetSignal-Screenshot-1.png)
+![MeetSignal](/images/MeetSignal-Screenshot-2.png)
 
 Meetsignal is an app I built using Codex for the 2026 Progress X GitNation Hackathon. It uses cosine distances between vectors to match people together by exploiting the same mathematical trick that Pandora uses to match songs that go together:
 
