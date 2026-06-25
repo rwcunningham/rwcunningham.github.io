@@ -4,8 +4,8 @@ title: "Javascript Pinball"
 ---
 
 Github: https://github.com/rwcunningham/JS_Pinball
-
-Leaving this up to show my progress, this is an earlier project. 
+![Javascript Pinball](Javascript-Pinball.png)
+This is an earlier project of mine that I am leaving here to show the progress I've made since. 
 
 This is a simple pinball game with a 2d physics engine. I built this while I was studying at CU boulder to practice Javascript, as most of the degree used Python, C++, and SQL and I felt that Javascript would be important to know as well. 
 
