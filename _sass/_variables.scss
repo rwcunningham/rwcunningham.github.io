@@ -4,15 +4,15 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #216869;
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$black: #1F2421;
+$darkerGray: #111713;
+$darkGray: #2d4038;
+$gray: #46574f;
+$lightGray: #DCE1DE;
+$white: #f2f6f3;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
@@ -27,17 +27,17 @@ $georgia: Georgia, serif;
 }
 
 :root {
-  --bg: #ffffff;
-  --surface: #f6f8fa;
-  --text: #111827;
-  --muted: #6b7280;
-  --border: #e5e7eb;
+  --bg: #DCE1DE;
+  --surface: #e8eeea;
+  --text: #1F2421;
+  --muted: #46574f;
+  --border: rgba(31, 36, 33, 0.14);
 
-  --accent: #2563eb;
-  --accent-hover: #1d4ed8;
+  --accent: #216869;
+  --accent-hover: #1F2421;
 
   --radius: 14px;
-  --shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.06);
+  --shadow: 0 1px 2px rgba(31, 36, 33, .08), 0 8px 24px rgba(31, 36, 33, .1);
 
   --content: 980px;
 }

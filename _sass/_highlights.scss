@@ -3,26 +3,26 @@
 /* ---------- Configurable design tokens ---------- */
 :root {
   /* base colours */
-  --hl-bg:           #f8f8f8;
-  --hl-border:       #d0d0d0;
-  --hl-shadow:       rgba(0,0,0,0.06);
+  --hl-bg:           #e8eeea;
+  --hl-border:       rgba(31, 36, 33, 0.18);
+  --hl-shadow:       rgba(31, 36, 33, 0.1);
   --hl-radius:       0.5rem;
   --hl-font:         'JetBrains Mono', 'SFMono-Regular', Consolas, Menlo, monospace;
 
-  /* syntax palette – vibrancy boosted from Solarized */
-  --tok-comment:     #6c8a93;
-  --tok-error:       #ff6b6b;
-  --tok-keyword:     #3182ce;
-  --tok-string:      #2bbf6c;
-  --tok-number:      #d16dff;
-  --tok-operator:    #c678dd;
-  --tok-punctuation: #5e6773;
+  /* syntax palette tuned to the site palette */
+  --tok-comment:     #587166;
+  --tok-error:       #7a332d;
+  --tok-keyword:     #216869;
+  --tok-string:      #2f7659;
+  --tok-number:      #216869;
+  --tok-operator:    #1F2421;
+  --tok-punctuation: #46574f;
 }
 
 /* ---------- Highlight block ---------- */
 .highlight {
   position: relative;
-  background: var(--hl-bg) linear-gradient(135deg, #fafafa 0%, #f3f3f3 100%);
+  background: var(--hl-bg) linear-gradient(135deg, #e8eeea 0%, #DCE1DE 100%);
   font-family: var(--hl-font);
   border: 1px solid var(--hl-border);
   border-radius: var(--hl-radius);
@@ -33,7 +33,7 @@
   transition: box-shadow 0.25s ease-out;
 }
 .highlight:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(31, 36, 33, 0.14);
 }
 
 /* line-numbers */
@@ -53,7 +53,7 @@
   left: 0;
   width: 2.75rem;
   text-align: right;
-  color: #9fa7b3;
+  color: #587166;
   opacity: 0.7;
   user-select: none;
 }
@@ -74,7 +74,7 @@
 /* ---------- Inline <code> tags ---------- */
 code, pre code {
   font-family: var(--hl-font);
-  background: #f1f3f5;
+  background: rgba(232, 238, 234, 0.78);
   padding: 0.15em 0.35em;
   border-radius: 0.3em;
 }
