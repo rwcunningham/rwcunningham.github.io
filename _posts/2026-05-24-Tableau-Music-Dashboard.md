@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Million Song Dataset Tableu Dashboards"
-image: /images/Info-Vis-Tableu-Screenshot.png
+title: "Million Song Dataset Tableau Dashboards"
+image: /images/Info-Vis-Tableau-Screenshot.png
 ---
 
 This is a webpage I created a while back for an Information Visualization class at CU Boulder. 
 
-![Info Visualization Webpage](/images/Info-Vis-Tableu-Screenshot.png)
+![Info Visualization Webpage](/images/Info-Vis-Tableau-Screenshot.png)
 
 [Open the interactive information visualization page](/assets/pages/info_visualization_project.html)
 
