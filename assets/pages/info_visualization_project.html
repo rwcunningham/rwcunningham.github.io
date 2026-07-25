@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Explore Music History!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* Basic styling for the navbar and body */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    /* Give some padding to the main content */
+    .content {
+      padding: 20px;
+    }
+    h1, h2 {
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Simple Nav Bar -->
+<nav>
+  <a href="#maps">Maps</a>
+  <a href="#linegraphs">Line Graphs</a>
+  <a href="#scatterplots">Scatterplots</a>
+</nav>
+
+<div class="content">
+  <!-- Anchor so "Maps" link scrolls here -->
+  <h1 id="maps">Map View: Explore Each Decade by Location</h1>
+  <p>Larger Dots Represent More Popular Songs</p>
+
+  <p>Each map below shows a different decade of musical evolution. The million-song dataset provides us with artist latitude and artist longitude data, as well as measurements of tempo, and “hotttness” which is a metric based on how much the song is discussed in publications. 
+
+    They’re all filtered to show only the most popular songs. Use the slider to set the range of “hotttness” to explore less popular songs. Use the tempo slider to narrow your search down to tracks that have a certain tempo. Songs within the same genre tend to fall within a similar tempo range, so in the absence of genre data, you can use the tempo slider to look for songs with a similar “pulse.”
+    
+    There are many interesting patterns to uncover here. Most of the earliest songs in this database are from the southeast region of the United States, eventually we see European artists having an impact, and then eventually, we see the whole world light up. Searching through tempo ranges my reveal the rise and fall of different genres.
+    
+    So take a look, explore, enjoy!</p>
+    
+
+  <h2>1922-1939</h2>
+  <div class='tableauPlaceholder' id='viz1741803980854' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 1922-1939 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1922-1939/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map1922-1939' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1922-1939/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741803980854');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>1940-1949</h2>
+  <div class='tableauPlaceholder' id='viz1741804201418' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 1940-1949 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1940-1949/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map1940-1949' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image'
+             value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1940-1949/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741804201418');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>1950-1959</h2>
+  <div class='tableauPlaceholder' id='viz1741804283965' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 1950-1959 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1950-1959/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map1950-1959' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image'
+             value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1950-1959/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741804283965');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>1960-1969</h2>
+  <div class='tableauPlaceholder' id='viz1741804294760' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 1960-1969 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1960-1969/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map1960-1969' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image'
+             value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1960-1969/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741804294760');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>1970-1979</h2>
+  <div class='tableauPlaceholder' id='viz1741804305579' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 1970-1979 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1970-1979/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map1970-1979' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image'
+             value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1970-1979/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+      <param name='ignore_sticky_session' value='yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741804305579');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>1980-1989</h2>
+  <div class='tableauPlaceholder' id='viz1741804320913' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 1980-1989 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1980-1989/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map1980-1989' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image'
+             value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1980-1989/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741804320913');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>1990-1999</h2>
+  <div class='tableauPlaceholder' id='viz1741804334489' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 1990-1999 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1990-1999/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map1990-1999' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image'
+             value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map1990-1999/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+      <param name='ignore_sticky_session' value='yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741804334489');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>2000-2011</h2>
+  <div class='tableauPlaceholder' id='viz1741804349470' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Map 2000-2011 '
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map2000-2011/1_rss.png'
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-Maps/Map2000-2011' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image'
+             value='https://public.tableau.com/static/images/In/InfoVisualization-Project-Maps/Map2000-2011/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+      <param name='ignore_sticky_session' value='yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741804349470');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+</div>
+
+<!-- Line Graphs Section -->
+<div class="content">
+  <h1 id="linegraphs">Line Graphs</h1>
+
+  <p>Read about the loudness war <a href=https://en.wikipedia.org/wiki/Loudness_war>on Wikipedia</a>
+
+    The line graph below tracks the perceived loudness of songs over time. While amplitude, or volume is the most common way to measure how loud a sound is, Audio Mastering Engineers use a metric to measure perceived loudness known as LUFS. LUFS don’t just measure the volume at a particular time as amplitude does. LUFS account for the differences in hearing sensitivity to different frequencies. It also accounts for the fact that the perception of loudness is not instantaneous, but takes around 400ms to be perceived, as well as many other considerations that make LUFS a good unit for measuring “loudness” from a perceptual perspective.
+    
+    Using this measurement, mastering engineers are able to raise the perceived loudness of a track, without the listener needing to turn up the volume. As the Wikipedia article mentions,  this ended up leading to a “loudness war” where sounds got louder, and dynamic range became a dimension that recorded music was less able to explore.
+    Spotify and other streaming services now normalize audio levels, to dis-incentivize this practice. 
+    The graphs below show median loudness over time. The first graph labels technological changes in recording technology. In the second and third graphs, I have included a selection of influential albums to provide context.
+    The final line graph, is just an exploratory tool for you to use to explore questions like “how much louder has music gotten from when I was a kid.” You can compare the volume of old masters, to contemporary songs and see what you find. Surprisingly, many Taylor Swift songs are louder than many ACDC songs. 
+    Enjoy!
+  </p>    
+
+  <h2>Dashboard 1</h2>
+  <div class='tableauPlaceholder' id='viz1741979207744' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Dashboard 1 ' 
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-LineGraphs/Dashboard1/1_rss.png' 
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-LineGraphs/Dashboard1' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/In/InfoVisualization-Project-LineGraphs/Dashboard1/1.png' /> 
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741979207744');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (divElement.offsetWidth > 800) { 
+      vizElement.style.width='100%';
+      vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    } else if (divElement.offsetWidth > 500) { 
+      vizElement.style.width='100%';
+      vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    } else { 
+      vizElement.style.width='100%';
+      vizElement.style.height='1077px';
+    } 
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>Dashboard 2</h2>
+  <div class='tableauPlaceholder' id='viz1741979219834' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Dashboard 1 (2) ' 
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-LineGraphs/Dashboard12/1_rss.png' 
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-LineGraphs/Dashboard12' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/In/InfoVisualization-Project-LineGraphs/Dashboard12/1.png' /> 
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741979219834');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (divElement.offsetWidth > 800) { 
+      vizElement.style.width='100%';
+      vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    } else if (divElement.offsetWidth > 500) { 
+      vizElement.style.width='100%';
+      vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    } else { 
+      vizElement.style.width='100%';
+      vizElement.style.height='1327px';
+    } 
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+  <h2>Dashboard 3</h2>
+  <div class='tableauPlaceholder' id='viz1741979232783' style='position: relative'>
+    <noscript>
+      <a href='#'>
+        <img alt='Dashboard 3 ' 
+             src='https://public.tableau.com/static/images/In/InfoVisualization-Project-LineGraphs/Dashboard3/1_rss.png' 
+             style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='site_root' value='' />
+      <param name='name' value='InfoVisualization-Project-LineGraphs/Dashboard3' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/In/InfoVisualization-Project-LineGraphs/Dashboard3/1.png' /> 
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en-US' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1741979232783');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (divElement.offsetWidth > 800) { 
+      vizElement.style.width='100%';
+      vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    } else if (divElement.offsetWidth > 500) { 
+      vizElement.style.width='100%';
+      vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+    } else { 
+      vizElement.style.width='100%';
+      vizElement.style.height='1377px';
+    } 
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+</div>
+
+
+
+
+
+
+<h2>Explore Loudness Overtime</h2>
+<h3>Try zooming in on a specific range of years. How much louder has music gotten since you were a kid?</h3>
+<div class='tableauPlaceholder' id='viz1741982940771' style='position: relative'><noscript><a href='#'><img alt='Explore The Median Loudness by Year On Your Own ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InfoVisualization-LineGraph-Simple&#47;SimpleGraph&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='InfoVisualization-LineGraph-Simple&#47;SimpleGraph' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;InfoVisualization-LineGraph-Simple&#47;SimpleGraph&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741982940771');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+<!-- Scatterplots placeholder section -->
+<div class="content">
+  <h1 id="scatterplots">Scatterplots</h1>
+  <p>Scatterplot visualizations coming soon!</p>
+</div>
+
+</body>
+</html>
