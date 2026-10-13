@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Customer Service Voice Chat"
+image: /images/CustomerServiceVoiceChat.png
 ---
 
 ![Customer Service Voice Chat](/images/CustomerServiceVoiceChat.png)
